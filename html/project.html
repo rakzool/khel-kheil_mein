@@ -1,0 +1,424 @@
+<html>
+
+<head>
+    <title>cricket</title>
+</head>
+
+<body bgcolor="GREEN">
+    </bgcolor>
+    <div class="flex-head" style="display: flex;">
+
+        <div style="margin-right: 20px;">
+            <a href=../index.html style="text-decoration : none; color: white; font-size:22px;">HOME</a>
+        </div>
+
+
+        <div>
+            <form>
+                <form action="">
+
+                    <input class="search-area" name="text" placeholder="search products">
+                    <input class="search-btn" type="submit" name="submit" value="SEARCH"></form>
+            </form>
+        </div>
+    </div>
+
+
+
+    <center><img
+            src="data:image/jpeg;base64,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"
+            alt="cricket stadium" height=600 width=900 style="margin-bottom: 12px;"></center>
+
+
+
+    </div>
+    <CENTER><img src="../assets/arjun/arjun.download.jpg" alt="cricket" height=600 width=900></CENTER>
+    </CENTER>
+    <CENTER> <b><u>
+                <h1>ABOUT THE GAME</h1></b></u>
+        <hr size=green>
+    </CENTER>
+
+    Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a
+    20-metre (22-yard) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting
+    side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries
+    to prevent this and dismiss each batter (so they are "out"). Means of dismissal include being bowled, when the ball
+    hits the stumps and dislodges the bails, and by the fielding side catching the ball after it is hit by the bat, but
+    before it hits the ground. When ten batters have been dismissed, the innings ends and the teams swap roles. The game
+    is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate
+    with two off-field scorers who record the match's statistical information.
+
+    There are quite a few formats ranging from Twenty20, played over a few hours with each team batting for a single
+    innings of 20 overs, to Test matches, played over five days with unlimited overs and the teams each batting for two
+    innings of unlimited length. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear
+    club or team colours. In addition to the basic kit, some players wear protective gear to prevent injury caused by
+    the ball, which is a hard, solid spheroid made of compressed leather with a slightly raised sewn seam enclosing a
+    cork core layered with tightly wound string.
+
+    Historically, cricket's origins are uncertain and the earliest definite reference is in south-east England in the
+    middle of the 16th century. It spread globally with the expansion of the British Empire, leading to the first
+    international matches in the second half of the 19th century. The game's governing body is the International Cricket
+    Council (ICC), which has over 100 members, twelve of which are full members who play Test matches. The game's rules
+    are held in a code called the Laws of Cricket which is owned and maintained by Marylebone Cricket Club (MCC) in
+    London. The sport is followed primarily in the Indian subcontinent, Australasia, the United Kingdom, southern Africa
+    and the West Indies, its globalisation occurring during the expansion of the British Empire and remaining popular
+    into the 21st century.[1] Women's cricket, which is organised and played separately, has also achieved international
+    standard. The most successful side playing international cricket is Australia, which has won seven One Day
+    International trophies, including five World Cups, more than any other country and has been the top-rated Test side
+    more than any other country.<br>
+    <CENTER> <b><u>
+                <h1>ORIGIN</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    Although the main object of the game has always been to score the most runs, the early form of cricket differed from
+    the modern game in certain key technical aspects. The ball was bowled underarm by the bowler and along the ground
+    towards a batsman armed with a bat that, in shape, resembled a hockey stick; the batsman defended a low, two-stump
+    wicket; and runs were called notches because the scorers recorded them by notching tally sticks.[13][14][15]
+
+    In 1611, the year Cotgrave's dictionary was published, ecclesiastical court records at Sidlesham in Sussex state
+    that two parishioners, Bartholomew Wyatt and Richard Latter, failed to attend church on Easter Sunday because they
+    were playing cricket. They were fined 12d each and ordered to do penance.[16] This is the earliest mention of adult
+    participation in cricket and it was around the same time that the earliest known organised inter-parish or village
+    match was played – at Chevening, Kent.[5][17] In 1624, a player called Jasper Vinall died after he was accidentally
+    struck on the head during a match between two parish teams in Sussex.[18]
+
+    Cricket remained a low-key local pursuit for much of the 17th century.[9] It is known, through numerous references
+    found in the records of ecclesiastical court cases, to have been proscribed at times by the Puritans before and
+    during the Commonwealth.[19][20] The problem was nearly always the issue of Sunday play as the Puritans considered
+    cricket to be "profane" if played on the Sabbath, especially if large crowds or gambling were involved.[21][22]
+
+    According to the social historian Derek Birley, there was a "great upsurge of sport after the Restoration" in 1660.
+    Gambling on sport became a problem significant enough for Parliament to pass the 1664 Gambling Act, limiting stakes
+    to £100 which was, in any case, a colossal sum exceeding the annual income of 99% of the population. Along with
+    prizefighting, horse racing and blood sports, cricket was perceived to be a gambling sport. Rich patrons made
+    matches for high stakes, forming teams in which they engaged the first professional players. By the end of the
+    century, cricket had developed into a major sport that was spreading throughout England and was already being taken
+    abroad by English mariners and colonisers – the earliest reference to cricket overseas is dated A 1697 newspaper
+    report survives of "a great cricket match" played in Sussex "for fifty guineas apiece" – this is the earliest known
+    contest that is generally considered a First Class match.
+
+    <CENTER>
+        <h1> <b><u>RULES</b></u>
+            <hr size=green>
+        </h1>
+    </CENTER>
+    1. Two teams, 22 players: Purdue University explains that a cricket match is little more than two teams facing off
+    against each other. Each team has 11 players on the field. One of a team's 11 players is the team captain. This
+    player is primarily responsible for ensuring that a team has no more than 11 players on the field at any given
+    time.<br>
+
+    2. Umpires' rulings are final: Lord's notes that the umpire is the final authority in play decisions. Players who
+    fail to follow directions or who balk at an umpire's decision will be turned over to the team captain for dismissal
+    or other discipline measures.<br>
+
+    3. Six balls equal one over: The bowler bowls the cricket ball to the striker. If the latter hits it and misses, the
+    ball is considered completed. After the bowler delivers six balls, he has completed an "over." Another team member
+    now takes a turn to bowl the next over.<br>
+
+    4. Game duration is negotiated: Teams may agree to play two innings and limit the number of hours they will be on
+    the field. In the alternative, the teams may opt to only play one innings but do so by agreeing on the number of
+    overs ahead of time.<br>
+
+    5. Professional-level cricket matches are limited duration games: Even so, these games -- usually referred to as
+    test matches -- last six hours per day and continue for five days. Since test matches must use natural light only,
+    playtime is set between 11 a.m. and 6 p.m.<br>
+
+    6. Batsmen do not have to run: American audiences are familiar with baseball players tossing aside their bats and
+    running from base to base. In cricket, the batsmen carry their bats with them as they run and use them to touch the
+    ground marking their progress. It is noteworthy that they do not have to run.<br>
+
+    7. Boundary fence hit equals four runs: Cricket recognizes that a batsman's ability to hit the fence with a bowled
+    ball should equal four runs. If the ball goes beyond the boundary fence, the batsman scores six runs.<br>
+
+    8. Overthrows allow for additional runs: Should fielders neglect to throw the ball back, the batsmen will continue
+    taking runs. If the ball rolls to the boundary of the field, the runs already completed are added to the automatic
+    four-run score a boundary hit earns.<br>
+
+    9. Time wasting is penalized: It is well known that cricket games can go on for days. In order to curtail time
+    wasting, a new batsman is out of the game if it takes him longer than two minutes to take the field after a wicket
+    fall.<br>
+
+    10. Field placement is optional: The team captain may choose to place team members in a number of field positions.
+    Each captain uses this strategy to the advantage of the team and to throw off the strategy of the opposing team.
+    Content by Sylvia Cochran.
+    <CENTER> <b><u>
+                <h1>PLAYING AREA</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    Cricket is a bat-and-ball game played on a cricket field (see image, right) between two teams of eleven players
+    each.[58] The field is usually circular or oval in shape and the edge of the playing area is marked by a boundary,
+    which may be a fence, part of the stands, a rope, a painted line or a combination of these; the boundary must if
+    possible be marked along its entire length.[59]
+
+    In the approximate centre of the field is a rectangular pitch (see image, below) on which a wooden target called a
+    wicket is sited at each end; the wickets are placed 22 yards (20 m) apart.[60] The pitch is a flat surface 3 metres
+    (9.8 ft) wide, with very short grass that tends to be worn away as the game progresses (cricket can also be played
+    on artificial surfaces, notably matting). Each wicket is made of three wooden stumps topped by two bails.[61]
+    <CENTER><img src="../assets/arjun/1125px-Cricket_pitch.svg.png" height=600 width=900></CENTER>
+    <CENTER> <b><u>
+                <h1>BAT AND BALL</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    The essence of the sport is that a bowler delivers (i.e., bowls) the ball from his or her end of the pitch towards
+    the batsman who, armed with a bat, is "on strike" at the other end (see next sub-section: Basic gameplay).
+
+    The bat is made of wood, usually salix alba (white willow), and has the shape of a blade topped by a cylindrical
+    handle. The blade must not be more than four and one quarter inches (108 mm) wide and the total length of the bat
+    not more than 38 inches (965 mm). There is no standard for the weight, which is usually between 2 lb 7 oz and 3 lb
+    (1.1 and 1.4 kg).[71][72]
+
+    The ball is a hard leather-seamed spheroid, with a circumference of 22.9 centimetres (9.0 in). The ball has a
+    "seam": six rows of stitches attaching the leather shell of the ball to the string and cork interior. The seam on a
+    new ball is prominent and helps the bowler propel it in a less predictable manner. During matches, the quality of
+    the ball deteriorates to a point where it is no longer usable; during the course of this deterioration, its
+    behaviour in flight will change and can influence the outcome of the match. Players will, therefore, attempt to
+    modify the ball's behaviour by modifying its physical properties. Polishing the ball and wetting it with sweat or
+    saliva is legal, even when the polishing is deliberately done on one side only to increase the ball's swing through
+    the air, but the acts of rubbing other substances into the ball, scratching the surface or picking at the seam are
+    illegal ball tampering.
+    <div class="flex-head" style="display: flex; margin: 12px;">
+        <IMG src="../assets/arjun/images.jpg" height=600 width=700>
+        <img src="../assets/arjun/download (1).jpg" height=600 width=700>
+    </div>
+    <CENTER> <b><u>
+                <h1>WOMEN'S CRICKET</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    Women's cricket was first recorded in Surrey in 1745.[112] International development began at the start of the 20th
+    century and the first Test Match was played between Australia and England in December 1934.[113] The following year,
+    New Zealand women joined them, and in 2007 Netherlands women became the tenth women's Test nation when they made
+    their debut against South Africa women. In 1958, the International Women's Cricket Council was founded (it merged
+    with the ICC in 2005).[113] In 1973, the first Cricket World Cup of any kind took place when a Women's World Cup was
+    held in England.[113] In 2005, the International Women's Cricket Council was merged with the International Cricket
+    Council (ICC) to form one unified body to help manage and develop cricket. The ICC Women's Rankings were launched on
+    1 October 2015 covering all three formats of women's cricket. In October 2018 following the ICC's decision to award
+    T20 International status to all members, the Women's rankings were split into separate ODI (for Full Members) and
+    T20
+    <CENTER> <b><u>
+                <h1>GOVERNENCE</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    The International Cricket Council (ICC), which has its headquarters in Dubai, is the global governing body of
+    cricket. It was founded as the Imperial Cricket Conference in 1909 by representatives from England, Australia and
+    South Africa, renamed the International Cricket Conference in 1965 and took up its current name in 1989.[113] The
+    ICC in 2017 has 105 member nations, twelve of which hold full membership and can play Test cricket.[115] The ICC is
+    responsible for the organisation and governance of cricket's major international tournaments, notably the men's and
+    women's versions of the Cricket World Cup. It also appoints the umpires and referees that officiate at all
+    sanctioned Test matches, Limited Overs Internationals and Twenty20 Internationals.
+
+    Each member nation has a national cricket board which regulates cricket matches played in its country, selects the
+    national squad, and organises home and away tours for the national team.[116] In the West Indies, which for cricket
+    purposes is a federation of nations, these matters are addressed by Cricket West Indie.
+
+    The table below lists the ICC full members and their national cricket board<BR><BR><BR>
+
+    Nation Governing body Member since[119]<BR><BR><BR>
+    1.Afghanistan Afghanistan Cricket Board 22 June 2017<BR>
+    2.Australia Cricket Australia 15 July 1909<BR>
+    3.Bangladesh Bangladesh Cricket Board 26 June 2000<BR>
+    4.England England and Wales Cricket Board 15 July 1909<BR>
+    5.India Board of Control for Cricket in India 31 May 1926<BR>
+    6.Ireland Cricket Ireland 22 June 2017<BR>
+    7.New Zealand New Zealand Cricket 31 May 1926<BR>
+    8.Pakistan Pakistan Cricket Board 28 July 1953<BR>
+    9.South Africa Cricket South Africa 15 July 1909<BR>
+    10.Sri Lanka Sri Lanka Cricket 21 July 1981<BR>
+    11.West Indies Cricket West Indies 31 May 1926<BR>
+    12.Zimbabwe Zimbabwe Cricket 6 July 1992<BR>
+    <CENTER> <b><u>
+                <h1>TYPES OF MATCHES</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    Cricket is a multi-faceted sport with multiple formats that can effectively be divided into first-class cricket,
+    limited overs cricket and, historically, single wicket cricket. The highest standard is Test cricket (always written
+    with a capital "T") which is in effect the international version of first-class cricket and is restricted to teams
+    representing the twelve countries that are full members of the ICC (see above). Although the term "Test match" was
+    not coined until much later, Test cricket is deemed to have begun with two matches between Australia and England in
+    the 1876–77 Australian season; since 1882, most Test series between England and Australia have been played for a
+    trophy known as The Ashes. The term "first-class", in general usage, is applied to top-level domestic cricket. Test
+    matches are played over five days and first-class over three to four days; in all of these matches, the teams are
+    allotted two innings each and the draw is a valid result.[120]
+
+    Limited overs cricket is always scheduled for completion in a single day, and the teams are allotted one innings
+    each. There are two types: List A which normally allows fifty overs per team; and Twenty20 in which the teams have
+    twenty overs each. Both of the limited overs forms are played internationally as Limited Overs Internationals (LOI)
+    and Twenty20 Internationals (T20I). List A was introduced in England in the 1963 season as a knockout cup contested
+    by the first-class county clubs. In 1969, a national league competition was established. The concept was gradually
+    introduced to the other leading cricket countries and the first limited overs international was played in 1971. In
+    1975, the first Cricket World Cup took place in England. Twenty20 is a new variant of limited overs itself with the
+    purpose being to complete the match within about three hours, usually in an evening session. The first Twenty20
+    World Championship was held in 2007. Limited overs matches cannot be drawn, although a tie is possible and an
+    unfinished match is a "no result".[121][122]
+
+    Single wicket was popular in the 18th and 19th centuries and its matches were generally considered top-class. In
+    this form, although each team may have from one to six players, there is only one batsman in at a time and he must
+    face every delivery bowled while his innings lasts. Single wicket has rarely been played since limited overs cricket
+    began. Matches tended to have two innings per team like a full first-class one and they could end in a draw.
+    <CENTER> <b><u>
+                <h1>THE STORY OF CRICKET IN INDIA</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    INDIA won its first world cup in 1983 world cup against WEST INDIES.<BR><BR><BR>
+    THE WORLD CUP SQUAD OF INDIA IN 1983.<BR>
+    1.Kapil Dev (c) 6 January 1959 Right hand Right arm fast-medium India Haryana<BR><BR>
+    2.Mohinder Amarnath 24 September 1950 Right hand Right arm medium India Delhi<BR><BR>
+    3.Kirti Azad 2 January 1959 Right-hand Right-arm off-spinner India Delhi<BR><BR>
+    4.Roger Binny 19 July 1955 Right-hand Right-arm fast-medium India Karnataka<BR><BR>
+    5.Sunil Gavaskar 10 July 1949 Right hand Right arm medium<BR><BR>
+    6.Right arm offbreak India Bombay<BR>
+    7.Syed Kirmani (wk) 29 December 1949 Right-handed Wicket-keeper India Karnataka<BR><BR>
+    8.Madan Lal 20 March 1951 Right-hand Right-arm medium India Delhi<BR><BR>
+    9.Sandeep Patil 18 August 1956 Right-hand Right-arm medium India Bombay<BR><BR>
+    10.Balwinder Sandhu 3 August 1956 Right-handed Right arm medium-fast India Bombay<BR><BR>
+    11.Yashpal Sharma 11 August 1954 Right-handed Right-arm medium India Punjab<BR><BR>
+    12.Ravi Shastri 27 May 1962 Right-hand Slow left-arm orthodox India Bombay<BR><BR>
+    13.Krishnamachari Srikkanth 21 December 1959 Right hand Right-arm medium<BR><BR>
+    14.Right-arm offbreak India Tamil Nadu<BR>
+    15.Sunil Valson 2 October 1958 Right-hand Left-arm medium India Delhi<BR><BR>
+    16.Dilip Vengsarkar 6 April 1956 Right hand Right arm medium India Bombay<bR><BR>
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HlSroz3trYI" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    <CENTER> <b><u>
+                <h1>THE INDIAN TEAM WON IT'S SECOND WORLD CUP AFTER 28 YEARS IN THE CAPTAINCY OF YOUNG BLOOD MAHENDRA
+                    SINGH DHONI</h1></b></u>
+        <hr size=green>
+    </CENTER>
+    THE INDIAN SQUAD FOR THE 2011 WORLD CUP;
+    1.M.S.DHONI<BR>
+    2.SACHIN TENDULKAR<BR>
+    3.VIRENDER SEHWAG<BR>
+    4.GAUTAM GAMBHIR<BR>
+    5.SURESH RAINA<BR>
+    6.YUVRAJ SINGH<BR>
+    7.IRFAN PATHAN<BR>
+    8.YUSUF PATHAN<BR>
+    9.ASHISH NEHRA<BR>
+    10.MUNAF PATEL<BR>
+    11.HARBHAJAN SINGH<BR>
+    12.SREESANTH<BR>
+    12.VIRAT KOHLI<BR>
+    13.PIYUSH CHAWLA<BR>
+    14.ZAHEER KHAN<BR>
+    15.ASHWIN <BR>
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AO8F099S9a8" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center><br>
+    <CENTER> <b>THE MOST SUCCESFUL CAPTAIN IN THE HISTORY OF THE CRICKET</b></CENTER><BR>
+    <CENTER><U><B><mark><a href="../html/M.S.DHONI.HTML">MAHENDRA SINGH DHONI</a> </mark></B></U></CENTER><br>
+    <center><img
+            src="https://images.moneycontrol.com/static-mcnews/2020/03/IPL-camps-cancelled-770x433.jpg?impolicy=website&width=770&height=431"
+            height=400 width=500></center>
+    <center><b><u><i>
+                    <H1>IPL(INDIAN PREMIERE LEAGUE)</H1>
+                </i></u></b></center>
+     
+    <img src="../assets/arjun/ARJUN4.HTML" height="300" width="700">
+    <P>
+    <H1>The Indian Premier League is a professional Twenty20 cricket league in India contested during March or April and
+        May of every year by eight teams representing eight different cities in India. The league was founded by the
+        Board of Control for Cricket in India in 2008. <BR><BR>
+        Current champion: Mumbai Indians (4th title)<BR>
+        Founder: Lalit Modi<BR>
+        Founded: 2008, India<BR>
+        Number of teams: 8<BR><BR></H1>
+    </P>
+    <IMG src="../assets/arjun/ARJUN5.HTML" height="600" width="900"><br><br>
+    <center><U><b><i><mark>THE EIGHT IPL TEAMS ARE :</mark></i></b></U></center><BR><BR><BR><BR>
+    <B><U><I><MARK>
+                    <H1>1.CHENNAI SUPER KINGS</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Chennai Super Kings (CSK) are a franchise cricket team based in Chennai, Tamil Nadu, which plays in the Indian
+    Premier League (IPL). Founded in 2008, the team plays its home matches at the M. A. Chidambaram Stadium in Chennai.
+    The team served a two-year suspension from the IPL starting July 2015 for the alleged involvement of their owners in
+    the 2013 IPL betting case and won the title in its comeback season. The team is captained by Mahendra Singh Dhoni
+    and coached by Stephen Fleming.<br><br>
+    <img src="../assets/arjun/ARJUN14.HTML" height="500" width="700">
+    <B><U><I><MARK>
+                    <H1>2.MUMBAI INDIANS</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Mumbai Indians are a franchise cricket team based in the city of Mumbai, Maharashtra, that play in the Indian
+    Premier League. Founded in 2008, the team is owned by India's biggest conglomerate, Reliance Industries, through its
+    100% subsidiary IndiaWin Sports. <br><br>
+    <img src="../assets/arjun/ARJUN13.HTML" height="500" width="700">
+    <B><U><I><MARK>
+                    <H1>3.ROYAL CHALLENGERS BANGLORE</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Royal Challengers Bangalore are a franchise cricket team based in Bangalore, Karnataka, that plays in the Indian
+    Premier League. It was founded in 2008 by United Spirits and named after the company's liquor brand Royal Challenge.
+    <br><br>
+    <img src=" https://statics.sportskeeda.com/editor/2018/04/9eab0-1522651048-500.jpg" height="500" width="700">
+
+
+
+
+    <B><U><I><MARK>
+                    <H1>4.DELHI CAPITALS</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Delhi Capitals are a franchise cricket team that represents the city of Delhi in the Indian Premier League.
+    Founded in 2008 as the Delhi Daredevils, the franchise is jointly owned by the GMR Group and the JSW Group. The
+    team's home ground is Arun Jaitley Stadium, located in New Delhi.<br><br>
+    <img src="../assets/arjun/ARJUN11.HTML" height="500" width="700">
+
+
+
+    <B><U><I><MARK>
+                    <H1>5.KOLKATA KNIGHT RIDERS</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Kolkata Knight Riders are a franchise cricket team representing the city of Kolkata in the Indian Premier
+    League. The franchise is owned by Bollywood actor Shah Rukh Khan, actress Juhi Chawla and her spouse Jay Mehta. The
+    home of the Knight Riders is the iconic Eden Gardens stadium.<br><br>
+    <img src="../assets/arjun/ARJUN10.HTML" height="500" width="700">
+
+
+    <B><U><I><MARK>
+                    <H1>6.SUNRISERS HYDERABAD</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Sunrisers Hyderabad are a franchise cricket team based in Hyderabad, Telangana, India, that plays in the Indian
+    Premier League. The franchise is owned by Kalanithi Maran of the Sun TV Network and was founded in 2012 after the
+    Hyderabad-based Deccan Chargers were terminated by the IPL.<br><br>
+    <img src="../assets/arjun/ARJUN9.HTML" height="500" width="700">
+
+
+    <B><U><I><MARK>
+                    <H1>7.RAJASTHAN ROYALS</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Rajasthan Royals are a franchise cricket team based in Jaipur, Rajasthan, that plays in the Indian Premier
+    League. Founded in 2008 as one of the initial eight IPL franchises, the team is based at the Sawai Mansingh Stadium
+    in Jaipur. The Rajasthan Royals are sometimes considered as the "moneyball" team of the IPL.<br><br>
+    <img src="../assets/arjun/ARJUN8.HTML" height="500" width="700">
+
+    <B><U><I><MARK>
+                    <H1>8.KINGS XI PUNJABS</H1>
+                </MARK></I></U></B><BR><BR><BR>
+    The Kings XI Punjab are a franchise cricket team based in Mohali, Punjab, that plays in the Indian Premier League.
+    Established in 2008, the franchise is jointly owned by Mohit Burman, Ness Wadia, Preity Zinta and Karan Paul. The
+    team plays its home matches at the PCA Stadium, Mohali. <br><br>
+    <img src="../assets/arjun/ARJUN7.HTML" height="500" width="700">
+    <CENTER><B><U><I>
+                    <H1>RANJHI TROPHY CRICKET</H1>
+                </I></U?>
+                </U?></B></CENTER>
+    The Ranji Trophy is a domestic first-class cricket championship played in India between multiple teams representing
+    regional and state cricket associations. The competition currently consists of 38 teams, with all 28 states in India
+    and four of the eight union territories having at least one representation. The competition is named after the first
+    Indian cricketer who played international cricket, Ranjitsinhji, who was also known as 'Ranji'.<BR><BR><BR>
+
+    &spades;; Countries : India<BR>
+    &spades;Administrator: BCCI<br>
+    &spades;Format: First-class cricket<br>
+    &spades;First edition: 1934 86 years ago<br>
+    &spades;Tournament format: Round-robin then knockout<br>
+    &spades;Number of teams: 38<br>
+    &spades;Current champion: Saurashtra (1st title)<br>
+    &spades;Most successful Mumbai: (41 titles)<br>
+    &spades;Qualification: Irani Cup<br>
+    &spades;Most runs: Wasim Jaffer (12,038)<br>
+    1996–2020<br>
+    &spades;Most wickets: Rajinder Goel (640)<br>
+    1958–1985<br>
+</body>
+
+</html>

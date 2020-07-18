@@ -1,0 +1,200 @@
+<<<<<<< HEAD
+/*Some basic reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/*______________________________________________________________________________________________________*/
+/*FOOTER STYLE*/
+ html, body{
+     height: 100%;
+ }
+ .pag{
+     min-height: 100vh;
+ }
+
+
+ .footer{
+     position: relative;
+     text-align: center;
+     padding-bottom: 5px;
+     margin-bottom: 0px;
+     background-color: #4BB543;
+     color: whitesmoke;
+ }
+
+  /*___________________________________________________________________________________________________*/
+
+  .field-img{
+      width: 100%;
+      height: 400px;
+      margin-top: 20px;
+  }
+  .mandlore{
+      padding: 10px 0px;
+  }
+ /*___________________________________________________________________________________________________*/
+
+ /*__________CONFIGURING FLEX LAYOUT FOR BODY_________________________________________________________*/
+
+ .cont-main{
+    
+     
+     margin-top:20px;
+ }
+ .fx1{     
+          
+     flex-wrap: inherit;
+     padding: 10px;
+     margin-left: 15px;
+     margin-right: 10px;
+ }
+ .fx2{       
+    justify-content: center;
+    padding: 20px;    
+    margin: 25px;
+    
+}
+ /*___________________________________________________________________________________________________*/
+
+ .cnt1,
+ .cnt2{
+     width:75%;
+     height: 53vh;
+      
+ }
+  li{
+      margin-left: 30px;
+      margin-bottom: 10px;
+  }
+
+  h1,h4,h5{
+      font-weight:bold;
+  }
+
+  .bad{
+    width: 15rem; 
+    background-color: black; 
+    color: blanchedalmond; 
+    margin-left: 1px;
+    margin-bottom: 1px;       
+  }
+ 
+  
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .be {
+      text-align: center;
+=======
+/*Some basic reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/*______________________________________________________________________________________________________*/
+/*FOOTER STYLE*/
+ html, body{
+     height: 100%;
+ }
+ .pag{
+     min-height: 100vh;
+ }
+
+
+ .footer{
+     position: relative;
+     text-align: center;
+     padding-bottom: 5px;
+     margin-bottom: 0px;
+     background-color: #4BB543;
+     color: whitesmoke;
+ }
+
+  /*___________________________________________________________________________________________________*/
+
+  .field-img{
+      width: 100%;
+      height: 400px;
+      margin-top: 20px;
+  }
+  .mandlore{
+      padding: 10px 0px;
+  }
+ /*___________________________________________________________________________________________________*/
+
+ /*__________CONFIGURING FLEX LAYOUT FOR BODY_________________________________________________________*/
+
+ .cont-main{
+    
+     
+     margin-top:20px;
+ }
+ .fx1{     
+          
+     flex-wrap: inherit;
+     padding: 10px;
+     margin-left: 15px;
+     margin-right: 10px;
+ }
+ .fx2{       
+    justify-content: center;
+    padding: 20px;    
+    margin: 25px;
+    
+}
+ /*___________________________________________________________________________________________________*/
+
+ .cnt1,
+ .cnt2{
+     width:75%;
+     height: 53vh;
+      
+ }
+  li{
+      margin-left: 30px;
+      margin-bottom: 10px;
+  }
+
+  h1,h4,h5{
+      font-weight:bold;
+  }
+
+  .bad{
+    width: 15rem; 
+    background-color: black; 
+    color: blanchedalmond; 
+    margin-left: 1px;
+    margin-bottom: 1px;       
+  }
+ 
+  
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .be {
+      text-align: center;
+>>>>>>> 1afb7f2... second
+  }
